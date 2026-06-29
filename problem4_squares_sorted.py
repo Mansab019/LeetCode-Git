@@ -3,8 +3,8 @@
 
 def sortedSquares(nums):
     squares = [x ** 2 for x in nums]
-    squares.sort()
-    return squares
+    squares.sort() 
+    return squares 
 
  
 
@@ -29,6 +29,6 @@ def sorted_squares_two_pointer(nums):
         pos -= 1
     return result
     
-nums = [-4, -1, 0, 3, 10]
+nums = [-4, -1, 0, 3, 10] 
 print(f"The brute Force method {sortedSquares(nums)}")
 print(f"The two pointer method {sorted_squares_two_pointer(nums)}")
